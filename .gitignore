@@ -1,2 +1,4 @@
-Gemfile.lock
+/Gemfile.lock
+/pkg
 *.swp
+/spec/nnsearcher.so
