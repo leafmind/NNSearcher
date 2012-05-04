@@ -14,7 +14,7 @@ describe NNSearcher do
         @coords << [ counter, (row[4].to_f * zoom).to_i, (row[3].to_f * zoom).to_i ]
       end
     elsif RUBY_VERSION =~ /1\.9\./
-      CSV.parse( File.read( File.expand_path('../../support/cities.csv', __FILE__ ) ), { :col_sep => “;” }) do |row|
+      CSV.parse( File.read( File.expand_path('../../support/cities.csv', __FILE__ ) ), { :col_sep => ";" }) do |row|
         counter += 1
         @coords << [ counter, (row[4].to_f * zoom).to_i, (row[3].to_f * zoom).to_i ]
       end
