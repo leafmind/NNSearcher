@@ -2,3 +2,5 @@
 /pkg
 *.swp
 /spec/nnsearcher.so
+/lib
+/tmp
